@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 import "../assets/css/banner.css";
 // https://via.placeholder.com/1500x300/ffd000
 // https://api.lorem.space/image/movie?w=1500&amp;amp;amp;amp;h=300
@@ -6,11 +7,13 @@ function Banners() {
   return (
     <Carousel variant="dark" className="conteudo-margin">
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://source.unsplash.com/random/1500x300/?organization"
-          alt="Slide incrível"
-        />
+        <Link to='/sobre'>
+          <img
+            className="d-block w-100"
+            src="https://source.unsplash.com/random/1500x300/?organization"
+            alt="Slide incrível"
+          />
+        </Link>
         <Carousel.Caption>
           <h5>EstudoApp</h5>
           <p>Um app para facilitar a vida do estudante!</p>

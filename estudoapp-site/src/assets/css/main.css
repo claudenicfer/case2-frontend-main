@@ -17,3 +17,31 @@
     color: rgb(21, 21, 21) !important;
 }
  */
+
+ /* login */
+ .login {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.login form {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.login h1.title-login, .login button  {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Sobre */
+.sobre {
+    line-height: 30px;
+}

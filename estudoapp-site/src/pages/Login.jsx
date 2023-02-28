@@ -29,8 +29,8 @@ function Login() {
     }
 
     return (
-        <Container className='conteudo-margin'>
-        <h1>Login</h1>
+        <Container className='conteudo-margin login'>
+        <h1 className='title-login'>Login</h1>
 
         <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="Email">
